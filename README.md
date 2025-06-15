@@ -2,7 +2,7 @@
 
 A comprehensive machine learning project for detecting and classifying defects on metal surfaces using advanced deep learning techniques.
 
-## 🚀 Features
+##  Features
 
 ### Advanced Architectures
 - **Custom CNN with Attention Mechanisms**: Self-designed CNN with attention blocks for focused feature learning
@@ -23,7 +23,7 @@ A comprehensive machine learning project for detecting and classifying defects o
 - **Training History Plots**: Loss and accuracy curves over epochs
 - **Ensemble Predictions**: Majority voting from multiple models
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the **NEU Metal Surface Defects Data** dataset containing 6 types of surface defects:
 - **Crazing**: Fine cracks on the surface
@@ -33,7 +33,7 @@ The project uses the **NEU Metal Surface Defects Data** dataset containing 6 typ
 - **Rolled**: Rolling-induced surface defects
 - **Scratches**: Linear surface damage
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone or download the project**
 2. **Install dependencies**:
@@ -41,7 +41,7 @@ The project uses the **NEU Metal Surface Defects Data** dataset containing 6 typ
    pip install -r requirements.txt
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Website/
@@ -54,7 +54,7 @@ Website/
 └── README.md          # This file
 ```
 
-## 🏃‍♂️ Usage
+## Usage
 
 ### Basic Training
 ```bash
@@ -113,20 +113,20 @@ class EnsembleModel(nn.Module):
     - Feature fusion and final classification
 ```
 
-## 🎯 Expected Results
+##  Expected Results
 
 - **Individual Model Accuracy**: 85-95%
 - **Ensemble Accuracy**: 90-98%
 - **Cross-Validation Stability**: ±2-5%
 
-## 📊 Output Files
+## Output Files
 
 The script generates several visualization files:
 - `training_history.png`: Training/validation curves
 - `confusion_matrix.png`: Confusion matrices for each model
 - Console output with detailed metrics
 
-## 🔧 Customization
+## Customization
 
 ### Modify Training Parameters
 ```python
@@ -147,14 +147,14 @@ models_to_train = {
 }
 ```
 
-## 🚨 System Requirements
+## System Requirements
 
 - **Python**: 3.7+
 - **GPU**: Recommended (CUDA-compatible)
 - **RAM**: 8GB+ recommended
 - **Storage**: 2GB+ for dataset and models
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -170,8 +170,7 @@ models_to_train = {
    - Verify dataset folder structure
    - Check file paths in the script
 
-## 📚 Technical Details
-
+##  Technical Details
 ### Key Innovations
 
 1. **Attention Mechanisms**: Focus on relevant image regions
@@ -186,8 +185,7 @@ models_to_train = {
 - Efficient data loading with PyTorch DataLoader
 - Memory-efficient training with gradient accumulation
 - Early stopping to prevent overfitting
-
-## 🤝 Contributing
+## Contributing
 
 Feel free to:
 - Add new model architectures
@@ -195,12 +193,12 @@ Feel free to:
 - Optimize training procedures
 - Add new visualization features
 
-## 📄 License
+##  License
 
 This project is for educational and research purposes.
 
 ---
 
-**Happy Training! 🎉**
+**Happy Training! **
 
 For questions or issues, please check the troubleshooting section or review the code comments for detailed explanations.
