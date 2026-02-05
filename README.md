@@ -92,7 +92,7 @@ python main.py
    - Shows how to handle class imbalance
    - Generates synthetic samples for minority classes
 
-## 📈 Model Architectures
+## Model Architectures
 
 ### Advanced CNN
 ```python
